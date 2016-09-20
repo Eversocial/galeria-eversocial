@@ -21,26 +21,48 @@
         responsiveFallback: 600,
         loop: true
       });
-       $(".title-eversocial").fadeIn(5000);
+       $(".title-eversocial").fadeIn(9000);
        $(".cont-img").fadeIn(3000);
-       $(".indicador").fadeIn(5000);
+       $(".indicador").fadeIn(9000);
 
 		});
 
 	</script>
   </head>
   <body>
-
     <div class="wrapper">
       <div class="main">
+        <canvas id="guia" width="60" height="200"></canvas>
+          <script>
+            var canvas = document.getElementById('guia');
+            var context = canvas.getContext('2d');
+
+            // begin custom shape
+            context.beginPath();
+            context.moveTo(170, 80);
+            context.bezierCurveTo(130, 100, 130, 150, 230, 150);
+            context.bezierCurveTo(250, 180, 320, 180, 340, 150);
+            context.bezierCurveTo(420, 150, 420, 120, 390, 100);
+            context.bezierCurveTo(430, 40, 370, 30, 340, 50);
+            context.bezierCurveTo(320, 5, 250, 20, 250, 50);
+            context.bezierCurveTo(200, 5, 150, 20, 170, 80);
+
+            // complete custom shape
+            context.closePath();
+            context.lineWidth = 5;
+            context.fillStyle = '#8ED6FF';
+            context.fill();
+            context.strokeStyle = 'blue';
+            context.stroke();
+          </script>
         <section id="header">
           <div class="container">
             <div class="row" style="">
-              <div class="icono-eversocial col m12 animated fadeInDown" >
-                <img src="assets/img/logo-eversocial.png" />
+              <div class="icono-eversocial col m12 animated fadeIn" >
+                <img src="assets/img/logo-eversocial-animado.gif" loop=false />
               </div>
             </div>
-            <div class="row valign-wrapper" style="height: 300px;">
+            <div class="row valign-wrapper" style="height: 200px;">
               <div class="title-eversocial col m12">
                 <h1>Cónoce como empezó este sueño...</h1>
               </div>
