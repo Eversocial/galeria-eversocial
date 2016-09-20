@@ -75,6 +75,12 @@ p{
   margin: 2.1rem 0 1.68rem 0;
 }
 
+#header p{
+  font-size: 4.2rem !important;
+  text-align: center !important;
+  line-height: 60px !important;
+}
+
 #galeria-cinco p{
   font-size: 4.2rem !important;
   text-align: center !important;
@@ -83,16 +89,17 @@ p{
 
 .icono-eversocial{
   text-align: center;
-  padding-top: 70px !important;
 }
 
 .icono-eversocial img{
-  width: 200px;
+  width: 300px;
 }
 
 .title-eversocial {
   color: white;
   display: none;
+  margin: auto !important;
+  max-width: 896px;
 }
 
 .indicador{
