@@ -87,12 +87,22 @@ p{
   line-height: 60px !important;
 }
 
+section i{
+  font-size: 72px !important;
+  margin-top: 24px;
+  margin-left: -25px;
+  margin-right:-17px;
+}
 .icono-eversocial{
   text-align: center;
 }
 
 .icono-eversocial img{
   width: 300px;
+}
+
+.con-title-eversocial{
+  height: 200px;
 }
 
 .title-eversocial {
@@ -305,4 +315,60 @@ transform: translateY(0);
 animation: swing 1s ease;
 -webkit-animation-iteration-count: 100;
 animation-iteration-count: 100;
+}
+
+
+@media (max-width: 700px) {
+  .onepage-wrapper .section {
+    height: auto;
+  }
+  .row{
+    margin-bottom: 0px !important;
+  }
+  .cont-img{
+    margin-top: 5px;
+  }
+  #galeria-uno{
+    padding: 40px 0px;
+  }
+  #galeria-dos{
+    padding: 40px 0px;
+  }
+
+  #galeria-tres{
+    padding: 40px 0px;
+  }
+  #galeria-cuatro{
+    padding: 40px 0px;
+  }
+  #galeria-cinco{
+    padding: 40px 0px;
+  }
+  #galeria-cinco p{
+    font-size: 2.2rem !important;
+    line-height: 100% !important;
+  }
+  #header h1{
+    font-size: 2.2rem;
+  }
+  p{
+    font-size: 2.2rem;
+    line-height: 100%;
+  }
+  section i{
+    font-size: 52px !important;
+    margin-top: 20px;
+    margin-left: -18px;
+    margin-right: -12px;
+  }
+  .con-title-eversocial{
+    height: 70px;
+  }
+  .icono-eversocial {
+      float: none !important;
+  }
+  .icono-eversocial img {
+      width: 220px;
+  }
+
 }
