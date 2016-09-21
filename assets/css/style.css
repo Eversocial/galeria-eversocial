@@ -87,6 +87,11 @@ p{
   line-height: 60px !important;
 }
 
+#header i{
+  font-size: 80px !important;
+  margin: 0px
+}
+
 section i{
   font-size: 72px !important;
   margin-top: 24px;
