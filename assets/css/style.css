@@ -46,16 +46,38 @@ header {
 #galeria-uno{
   background-color: #AF1E3A;
   padding: 100px 0px;
+  background-image: url('../../assets/img/1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -110px;
+}
+
+#galeria-uno p{
+  text-align: center;
+  font-size: 4.2rem;
+  line-height: 110%;
+  margin: 2.1rem 0 1.68rem 0;
+  text-shadow: 1px 1px 1px black;
 }
 
 #galeria-dos{
-  background-color: #ED1651;
+  background-color: #AF1E3A;
   padding: 100px 0px;
 }
 
 #galeria-tres{
   background-color: #AF1E3A;
   padding: 100px 0px;
+  background-image: url('../../assets/img/equipo-salto.jpg');
+  background-size: cover;
+}
+
+#galeria-tres p{
+  text-align: center;
+  font-size: 4.2rem;
+  line-height: 110%;
+  margin: 2.1rem 0 1.68rem 0;
+  text-shadow: 1px 1px 1px black;
 }
 
 #galeria-cuatro{
@@ -64,6 +86,21 @@ header {
 }
 
 #galeria-cinco{
+  background-color: #AF1E3A;
+  padding: 100px 0px;
+}
+
+#galeria-seis{
+  background-color: #AF1E3A;
+  padding: 100px 0px;
+}
+
+#galeria-siete{
+  background-color: #AF1E3A;
+  padding: 100px 0px;
+}
+
+#galeria-ocho{
   background-color: #AF1E3A;
   padding: 100px 0px;
 }
@@ -81,7 +118,7 @@ p{
   line-height: 60px !important;
 }
 
-#galeria-cinco p{
+#galeria-ocho p, #galeria-cinco p{
   font-size: 4.2rem !important;
   text-align: center !important;
   line-height: 60px !important;
