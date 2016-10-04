@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
   <script type="text/javascript" src="assets/js/jquery.onepage-scroll.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
   <script>
 	  $(document).ready(function(){
       $(".main").onepage_scroll({
@@ -24,19 +25,30 @@
        $(".title-eversocial").fadeIn(9000);
        $(".cont-img").fadeIn(3000);
        $(".indicador").fadeIn(9000);
+         $(".button-collapse").sideNav();
 
 		});
 
 	</script>
   </head>
   <body>
-
+    <div id="cont-menu">
+      <ul id="slide-out" class="side-nav">
+          <li><div class="userView">
+            <img src="http://www.everbrander.co/eversocial/wp-content/uploads/2015/05/eversocial-rojo.png">
+          </div></li>
+          <li ><a href="http://eversocial.co/about/">About us</a></li>
+          <li ><a href="http://eversocial.co/#testimonial">Testimonials</a></li>
+          <li ><a href="http://eversocial.co/#services" >Services</a></li>
+          <li ><a href="http://eversocial.co/all-portafolio/" >Portfolio</a></li>
+          <li ><a href="http://eversocial.co/gallery/" >Gallery</a></li>
+          <li ><a href="http://eversocial.co/blog/">Blog</a></li>
+          <li ><a href="http://eversocial.co/contact/">Contact</a></li>
+        </ul>
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
     <div class="wrapper">
       <div class="main">
-<<<<<<< HEAD
-
-=======
->>>>>>> gh-pages
         <section id="header">
           <div class="container">
             <div class="row" style="">
@@ -46,7 +58,7 @@
             </div>
             <div class="row valign-wrapper con-title-eversocial" >
               <div class="title-eversocial col m12">
-                <h1>Cónoce como empezó este sueño...</h1>
+                <h1>Desplázate hacia abajo y descubre como comenzó este sueño...</h1>
               </div>
             </div>
           </div>
