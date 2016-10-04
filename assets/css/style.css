@@ -34,6 +34,24 @@ header {
   overflow: hidden;
 }
 
+#cont-menu{
+  position: absolute;
+  right: 61px;
+  top: 6%;
+  z-index: 5;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#cont-menu i{
+  color: white;
+  font-size: 45px;
+}
+
+#sidenav-overlay{
+  z-index: 4 !important;
+}
 
 #header{
   background: #ED1651;
@@ -81,14 +99,26 @@ header {
 }
 
 #galeria-cuatro{
-  background-color: #ED1651;
+  background-color: #AF1E3A;
   padding: 100px 0px;
 }
 
 #galeria-cinco{
   background-color: #AF1E3A;
   padding: 100px 0px;
+  background-image: url('../../assets/img/seguimos-creciendo.JPG');
+  background-size: cover;
+  background-position-y: -40px;
 }
+
+#galeria-cinco p{
+  text-align: center;
+  font-size: 4.2rem;
+  line-height: 110%;
+  margin: 2.1rem 0 1.68rem 0;
+  text-shadow: 1px 1px 1px black;
+}
+
 
 #galeria-seis{
   background-color: #AF1E3A;
@@ -101,7 +131,7 @@ header {
 }
 
 #galeria-ocho{
-  background-color: #AF1E3A;
+  background-color: #ED1651;
   padding: 100px 0px;
 }
 
@@ -118,7 +148,7 @@ p{
   line-height: 60px !important;
 }
 
-#galeria-ocho p, #galeria-cinco p{
+#galeria-ocho p{
   font-size: 4.2rem !important;
   text-align: center !important;
   line-height: 60px !important;
@@ -127,6 +157,11 @@ p{
 #header i{
   font-size: 80px !important;
   margin: 0px
+}
+
+.side-nav a {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px !important;
 }
 
 section i{
@@ -152,6 +187,10 @@ section i{
   display: none;
   margin: auto !important;
   max-width: 896px;
+}
+
+.title-eversocial h1{
+  line-height: 100% !important;
 }
 
 .indicador{
@@ -359,6 +398,11 @@ animation: swing 1s ease;
 animation-iteration-count: 100;
 }
 
+@media only screen and (min-width: 993px){
+.container {
+    width: 90% !important;
+}
+}
 
 @media (max-width: 700px) {
   .onepage-wrapper .section {
